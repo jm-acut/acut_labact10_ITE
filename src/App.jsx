@@ -1,4 +1,5 @@
 import TaskList from './components/TaskList';
+import ReloadPrompt from './components/ReloadPrompt';
 import './App.css';
 
 export default function App() {
@@ -14,6 +15,8 @@ export default function App() {
         <h2>My Tasks</h2>
         <TaskList />
       </section>
+
+      <ReloadPrompt />
     </main>
   );
 }
